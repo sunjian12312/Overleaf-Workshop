@@ -3,6 +3,7 @@ on:
   pull_request:
     branches: [master]
     types: [opened, synchronize, reopened]
+  workflow_dispatch:  # 添加这行以启用手动触发
 
 jobs:
   build:
